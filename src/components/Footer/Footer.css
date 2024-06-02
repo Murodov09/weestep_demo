@@ -1,0 +1,51 @@
+#footer_li{
+    font-family: 'Weestep',sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+color: #000000;
+transition: 0.5s ease all;
+
+&:hover{
+    border-bottom: 1px solid black;
+}
+text-align: left;
+
+}
+
+
+.footer{
+    width: 1332px;
+height: 398px;
+border-radius: 60px;
+background: #F3F1F2;
+margin: auto;
+margin-top: 137px;
+justify-content: space-evenly;
+padding-top: 63px;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    
+}
+
+.end_text{
+    font-family: 'Weestep',sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #9B9598;
+
+}
+
+.footer_div{
+    display: flex;
+    flex-direction: column;
+    gap: 230px;
+}
